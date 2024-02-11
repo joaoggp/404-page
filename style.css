@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 20%;
+    min-width: 15%;
+    margin: auto;
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal:not(.animated) .animable {
+    opacity: 0;
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal.animated #freepik--Floor--inject-72 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) lightSpeedRight;
+    animation-delay: 0s;
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal.animated #freepik--yarn-ball--inject-72 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomOut;
+    animation-delay: 0s;
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal.animated #freepik--Plants--inject-72 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideUp;
+    animation-delay: 0s;
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal.animated #freepik--Text--inject-72 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) zoomOut;
+    animation-delay: 0s;
+}
+
+.main-img svg#freepik_stories-404-error-with-a-cute-animal.animated #freepik--Character--inject-72 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown;
+    animation-delay: 0s;
+}
+
+header .title h1{
+    font-family: 'Segoe UI', Tahoma;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+    color: #407bff;
+    border: none;
+    transition: 2s;
+}
+
+header .title h1:hover{
+   cursor: default;
+   font-size: 8vw;
+   text-shadow: #407bff 0px 5px 30px;
+}
+
+main .text-404{
+    padding-top: 10%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+main .text-404 .text{
+    font-weight: 550;
+    margin-bottom: 0.3rem;
+    font-size: 1.5vw;
+}
+
+main .text-404 .text-2{
+    margin-bottom: 1.9rem;
+    font-size: 0.8vw;
+}
+
+main .text-404 .button-return .btn{
+    width: 13.3vw;
+    height: 3vw;
+    min-width: 5rem;
+    min-height: 1rem;
+    max-width: 15rem;
+    max-height: 2.8rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #407bff;
+    color: #fff ;
+    font-weight: 400;
+    transition: 1s;
+    font-size: 0.8vw;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .text-404 .button-return .btn:hover{
+    cursor: pointer;
+}
+
+
+
+@keyframes lightSpeedRight {
+    from {
+        transform: translate3d(20%, 0, 0) skewX(-10deg);
+        opacity: 0;
+    }
+
+    60% {
+        transform: skewX(5deg);
+        opacity: 1;
+    }
+
+    80% {
+        transform: skewX(-1deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes zoomOut {
+    0% {
+        opacity: 0;
+        transform: scale(0.4);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(90px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: inherit;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
